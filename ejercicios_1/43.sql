@@ -1,0 +1,1 @@
+select * from city as c where c.CountryCode like "BRA" and c.Population > 1000000
