@@ -1,0 +1,1 @@
+select c.Continent,MAX(c.SurfaceArea) as area from country as c group by c.Continent

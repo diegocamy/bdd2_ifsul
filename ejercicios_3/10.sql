@@ -1,0 +1,1 @@
+select c.Continent,avg(c.SurfaceArea) as area from country as c group by c.Continent order by area DESC
