@@ -1,0 +1,1 @@
+select  c.Continent,count(c.Name) from country as c group by c.Continent
